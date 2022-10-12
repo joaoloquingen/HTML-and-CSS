@@ -1,0 +1,45 @@
+body{
+    width: 95%;
+    max-width: 800px;
+    margin:auto;
+    background:linear-gradient(to right, #354636, black,black,red);
+    background-size: 500% 100%;
+    animation-name: degrade;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+    
+    font-family: sans-serif;
+    line-height: 1.5;
+    color:white;
+}   
+
+.main{
+    background:#00000059;
+    padding: 5px 40px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+h3{
+    text-align: center;
+}
+
+h1{
+ text-align: center;
+}
+
+@keyframes degrade {
+    0%{background-position-x: 0%;
+    }
+    100%{background-position-x: 100%;
+    }
+}
